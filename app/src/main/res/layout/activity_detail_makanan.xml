@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMakanan"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rendang" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rendang"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rendang adalah masakan daging sapi yang dimasak dalam santan dan bumbu rempah-rempah, seperti cengkih, kayu manis, dan serai. Ini adalah hidangan yang kaya rasa dan biasanya dimasak hingga dagingnya sangat empuk."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
